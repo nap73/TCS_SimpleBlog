@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+</head>
+<body class="container">
+
+    <!--  THIS CODE IS FOR DUMMY NAV BAR AT TOP -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light alert alert-danger" style="height: 100px;">
+       
+       
+        <a class="navbar-brand"  href="#"><h3>SIMPLE BLOGGER - 1972519 </h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">Contact Us</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">About</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <a class="navbar-brand" href="#">Link</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      </nav>
+<!--NAV COMPLETES HERE -->
+
+
+
+<!--- THIS AREA IS FOR FORM  -->
+<hr>
+<div>
+    <p class="display-6 alert alert-danger">ADD NEW BLOG ? GO AHEAD .. </p>
+
+<form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Blog Title</label>
+      <input type="text" class="form-control" id="title" placeholder="Title">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Description</label>
+      <textarea class="form-control" id="desc" rows="3"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlFile1">Image</label>
+        <input type="file" class="form-control-file" id="imageId">
+      </div>
+     
+      <div class="form-group">
+        <input type="button" class="btn btn-danger" value="Add Blog"  onclick="addBlog()"/> 
+      </div>
+ </form>
+</div>
+<hr>
+
+<p class="display-6 alert alert-danger">RECENT BLOGS .. </p>
+<div id="MainBlog" class="col-sm-6 col-md-6 col-xs-6"> 
+
+
+</div>
+</body>
+<script src="test.js"></script>
+</html>
